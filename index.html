@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MiniVault</title>
+  <meta name="description" content="Catalogo personale di miniature e ricette di pittura">
+  <meta name="theme-color" content="#16201c">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    /* Applica subito il tema salvato, per evitare il lampo di colore all'avvio */
+    (function () {
+      try {
+        var t = localStorage.getItem('mv-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* storage non disponibile */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai ai contenuti</a>
+
+  <div id="app">
+    <header class="topbar">
+      <div class="topbar-row">
+        <a class="brand" href="#/" aria-label="MiniVault, torna alla lista">
+          <svg class="brand-hex" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.5l11.7 6.75v13.5L16 29.5 4.3 22.75V9.25z"/></svg>
+          <span class="brand-name">MiniVault</span>
+        </a>
+        <div class="topbar-actions">
+          <button id="btn-search" class="icon-btn" type="button" aria-label="Cerca" aria-expanded="false" aria-controls="search-panel">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+          </button>
+          <button id="btn-theme" class="icon-btn" type="button" aria-label="Passa al tema chiaro">
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Sezioni">
+        <a href="#/" data-tab="miniature">Miniature</a>
+        <a href="#/colori" data-tab="colori">Colori</a>
+      </nav>
+
+      <div id="search-panel" class="search-panel" hidden>
+        <div class="search-field">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+          <input id="search-input" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false"
+                 placeholder="Cerca per tag: verde, chiaro, pelle" aria-label="Cerca per tag, separati da virgola" aria-controls="search-suggest">
+          <button id="search-clear" class="icon-btn small" type="button" aria-label="Cancella la ricerca" hidden>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+        <p class="search-hint">Separa più tag con la virgola: compaiono le miniature che ne hanno almeno uno, prima quelle che ne hanno di più.</p>
+        <ul id="search-suggest" class="suggest" role="listbox" aria-label="Suggerimenti" hidden></ul>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section id="view-miniature" aria-label="Miniature">
+        <div class="toolbar">
+          <label class="field">
+            <span>Gruppo</span>
+            <select id="filter-gruppo"></select>
+          </label>
+          <label class="field">
+            <span>Ordine</span>
+            <select id="sort">
+              <option value="nome">Nome A–Z</option>
+              <option value="nome-desc">Nome Z–A</option>
+              <option value="gruppo">Gruppo</option>
+            </select>
+          </label>
+        </div>
+        <div class="list-head">
+          <p id="result-info" class="result-info" aria-live="polite"></p>
+          <button id="btn-view" class="view-toggle" type="button" aria-label="Passa alla vista a griglia">
+            <svg class="icon icon-to-grid" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.2"/></svg>
+            <svg class="icon icon-to-list" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></svg>
+            <span class="view-toggle-label">Griglia</span>
+          </button>
+        </div>
+        <div id="mini-list" class="mini-list is-list"></div>
+      </section>
+
+      <section id="view-colori" aria-label="Colori" hidden>
+        <div class="toolbar">
+          <label class="field">
+            <span>Linea</span>
+            <select id="filter-linea"></select>
+          </label>
+        </div>
+        <p id="color-info" class="result-info" aria-live="polite"></p>
+        <div id="color-list"></div>
+      </section>
+
+      <div id="status" class="status" role="status"></div>
+    </main>
+  </div>
+
+  <!-- Scheda di dettaglio -->
+  <div id="detail" class="detail" hidden role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <div class="detail-backdrop" data-close-detail></div>
+    <div class="detail-panel">
+      <button id="detail-close" class="icon-btn detail-close" type="button" aria-label="Chiudi la scheda">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div id="detail-body"></div>
+    </div>
+  </div>
+
+  <!-- Visualizzatore con zoom -->
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Visualizzatore immagini">
+    <div class="lb-top">
+      <p id="lb-caption" class="lb-caption"></p>
+      <div class="lb-actions">
+        <button id="lb-zoom-out" class="icon-btn" type="button" aria-label="Riduci">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>
+        </button>
+        <output id="lb-zoom-level" class="lb-level" aria-live="off">100%</output>
+        <button id="lb-zoom-in" class="icon-btn" type="button" aria-label="Ingrandisci">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg>
+        </button>
+        <button id="lb-reset" class="icon-btn" type="button" aria-label="Adatta allo schermo">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+        </button>
+        <button id="lb-close" class="icon-btn" type="button" aria-label="Chiudi">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="lb-stage" class="lb-stage">
+      <img id="lb-img" alt="" draggable="false">
+    </div>
+    <button id="lb-prev" class="lb-nav lb-prev" type="button" aria-label="Immagine precedente">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button id="lb-next" class="lb-nav lb-next" type="button" aria-label="Immagine successiva">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <div id="lb-thumbs" class="lb-thumbs"></div>
+    <p class="lb-help">Pizzica o scorri la rotella per ingrandire. Trascina per spostare. Tocca due volte per zoomare.</p>
+  </div>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

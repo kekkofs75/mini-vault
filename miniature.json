@@ -1,0 +1,1609 @@
+{
+  "versione": 1,
+  "miniature": [
+    {
+      "id": "tuk-tuk-the-adventurer",
+      "nome": "Tuk Tuk the Adventurer",
+      "gruppo": "Tuk Tuk & Friends",
+      "immagine": "Tuk_Tuk_the_Adventurer.jpg",
+      "pdf": "Tuk Tuk the Adventurer.pdf",
+      "video": "",
+      "correlati": [],
+      "colori": [
+        "sp2-malignant-green",
+        "sp2-ochre-clay",
+        "sp2-ghillie-dew",
+        "sp2-camo-cloak",
+        "sp2-brownish-decay",
+        "sp2-pallid-bone",
+        "sp2-hardened-leather",
+        "sp2-burnished-red",
+        "sp2-plasmatic-bolt",
+        "sp2-dark-wood",
+        "sp2-grim-black",
+        "sp2-ancient-honey",
+        "sp2-thunderbird-blue",
+        "sp2-satchel-brown",
+        "sp2-hoard-bronze",
+        "sp2-noble-skin",
+        "sp2-princess-pink",
+        "sp2-tidal-wave",
+        "sp2-medium",
+        "fan-matt-white",
+        "fan-strong-tone",
+        "gsw-maxx-matt-varnish"
+      ],
+      "parti": [
+        {
+          "id": "pelle",
+          "nome": "Pelle",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-malignant-green",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "verde",
+                "chiaro",
+                "base",
+                "pelle"
+              ],
+              "nota": "Su sottofondo bianco, copri tutta la pelle. È un colore molto chiaro che farà da luce durante i passaggi di ombreggiatura."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-ochre-clay",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "giallo",
+                "ombra",
+                "lavaggio",
+                "pelle"
+              ],
+              "nota": "Lava tutta la pelle: scurisce le zone in ombra lasciando trasparire la prima mano chiara.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-ghillie-dew",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "verde",
+                "tinta",
+                "lavaggio",
+                "pelle"
+              ],
+              "nota": "Aggiunge una leggera tinta verde sopra le ombre scure e crea toni multipli interessanti.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            },
+            {
+              "livello": 4,
+              "colore": "sp2-camo-cloak",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "verde",
+                "scuro",
+                "lavaggio",
+                "opzionale",
+                "pelle"
+              ],
+              "nota": "Passaggio opzionale: serve per avvicinarsi all'art card inclusa con la miniatura.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "scaglie-artigli",
+          "nome": "Scaglie e artigli",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-brownish-decay",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "scaglie",
+                "artigli",
+                "base"
+              ],
+              "nota": "Dipingi le scaglie di braccia e gambe con un pennello da dettaglio, per controllare le piccole placche. Usa lo stesso colore per tutti gli artigli."
+            }
+          ]
+        },
+        {
+          "id": "piastrone",
+          "nome": "Piastrone",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-pallid-bone",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "beige",
+                "chiaro",
+                "base",
+                "guscio"
+              ],
+              "nota": "Dipingi la parte frontale del guscio."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-hardened-leather",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "marrone",
+                "ombra",
+                "lavaggio",
+                "guscio"
+              ],
+              "nota": "Lava il piastrone: smorza il tono generale e lascia più scuro il solco tra le placche.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "guscio-dorsale",
+          "nome": "Guscio dorsale e rune",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-burnished-red",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "rosso",
+                "marrone",
+                "base",
+                "guscio"
+              ],
+              "nota": "Fai attenzione all'angolo in cui lasci la miniatura ad asciugare: la pittura scorre per gravità e influenza l'ombreggiatura finale."
+            },
+            {
+              "livello": 2,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "rune",
+                "dettaglio"
+              ],
+              "nota": "Diluisci il bianco con parecchia acqua e, con un pennello da dettaglio, lascia fluire la pittura nelle rune sul bordo del guscio. Appoggia le mani al tavolo per tenere fermo il pennello.",
+              "mix": {
+                "con": "acqua",
+                "rapporto": "molto diluito con"
+              }
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-plasmatic-bolt",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "turchese",
+                "rune",
+                "glow"
+              ],
+              "nota": "Poca pittura dentro e attorno alle rune: crea un leggero alone luminoso."
+            },
+            {
+              "livello": 4,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "rune",
+                "dettaglio"
+              ],
+              "nota": "Torna al bianco diluito e metti una quantità minima nell'incavo di ogni runa, lasciandola scorrere dove vuole.",
+              "mix": {
+                "con": "acqua",
+                "rapporto": "molto diluito con"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gamba-legno",
+          "nome": "Gamba di legno",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-dark-wood",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "scuro",
+                "legno",
+                "base"
+              ],
+              "nota": "Dipingi la gamba di legno."
+            }
+          ]
+        },
+        {
+          "id": "tridente",
+          "nome": "Tridente",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-dark-wood",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "scuro",
+                "legno",
+                "manico"
+              ],
+              "nota": "Dipingi il manico del tridente."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-hoard-bronze",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "bronzo",
+                "metallo",
+                "base"
+              ],
+              "nota": "Su tutte le parti metalliche. Agita bene la boccetta: tende a separarsi."
+            },
+            {
+              "livello": 3,
+              "colore": "fan-strong-tone",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "marrone",
+                "ombra",
+                "lavaggio",
+                "metallo"
+              ],
+              "nota": "Lava tutte le parti metalliche."
+            },
+            {
+              "livello": 4,
+              "colore": "sp2-noble-skin",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "chiaro",
+                "corda",
+                "fasce"
+              ],
+              "nota": "Per le fasce avvolte attorno al tridente."
+            },
+            {
+              "livello": 5,
+              "colore": "sp2-princess-pink",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "rosa",
+                "conchiglie",
+                "dettaglio"
+              ],
+              "nota": "Per le piccole conchiglie decorative attorno al tridente."
+            },
+            {
+              "livello": 6,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "balani",
+                "dettaglio"
+              ],
+              "nota": "Per i minuscoli balani (incrostazioni) sul tridente."
+            }
+          ]
+        },
+        {
+          "id": "cappello",
+          "nome": "Cappello da capitano",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-grim-black",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "nero",
+                "scuro",
+                "base",
+                "cappello"
+              ],
+              "nota": "Dipingi il corpo del cappello. Attenzione quando la pittura arriva al bordo della pelle: sfrutta la tensione dell'acqua e la scultura per guidarla."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-ancient-honey",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "giallo",
+                "oro",
+                "bordo",
+                "cappello"
+              ],
+              "nota": "Per il bordo del cappello. Prima ritocca di bianco ogni sbavatura nera, altrimenti le macchie traspaiono sotto il giallo."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-pallid-bone",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "beige",
+                "chiaro",
+                "piuma",
+                "cappello"
+              ],
+              "nota": "Per la piuma del cappello."
+            }
+          ]
+        },
+        {
+          "id": "gioielli",
+          "nome": "Gioielli e fasce",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-thunderbird-blue",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "turchese",
+                "blu",
+                "gioielli",
+                "perline"
+              ],
+              "nota": "Per le due perline della collana e per il bracciale del braccio sinistro."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-satchel-brown",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "marrone",
+                "scuro",
+                "fascia",
+                "braccio"
+              ],
+              "nota": "Per la parte centrale della fascia sul braccio destro."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-noble-skin",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "marrone",
+                "chiaro",
+                "collana"
+              ],
+              "nota": "Per la collana."
+            }
+          ]
+        },
+        {
+          "id": "occhi",
+          "nome": "Occhi",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "occhi",
+                "dettaglio"
+              ],
+              "nota": "Per gli occhi."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-tidal-wave",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "azzurro",
+                "occhi",
+                "iride"
+              ],
+              "nota": "Con un pennello da dettaglio, dipingi con cura l'iride."
+            }
+          ]
+        },
+        {
+          "id": "finitura",
+          "nome": "Finitura",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "gsw-maxx-matt-varnish",
+              "passate": 1,
+              "tecnica": "vernice",
+              "tag": [
+                "vernice",
+                "opaco",
+                "finitura"
+              ],
+              "nota": "Una mano su tutte le parti non metalliche, per togliere la lucentezza satinata degli Speedpaint."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commander-farsight",
+      "nome": "Commander Farsight",
+      "gruppo": "Tau & Allies",
+      "immagine": "Commander_Farsight.jpg",
+      "pdf": "Commander Farsight.pdf",
+      "video": "",
+      "correlati": [
+        "the-dawn-blade"
+      ],
+      "colori": [
+        "sp2-blinding-light",
+        "sp2-magic-blue",
+        "sp2-grim-black",
+        "sp2-bright-red",
+        "sp2-blood-red",
+        "sp2-murder-scene",
+        "sp2-gravelord-grey",
+        "sp2-zealot-yellow",
+        "sp2-pallid-bone",
+        "sp2-satchel-brown",
+        "sp2-medium",
+        "fan-matt-white",
+        "generico-white-ink",
+        "fan-plasma-coil-glow",
+        "val-chrome-71-064",
+        "gsw-maxx-matt-varnish"
+      ],
+      "parti": [
+        {
+          "id": "testa",
+          "nome": "Testa e casco",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-blinding-light",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "bianco",
+                "chiaro",
+                "base",
+                "casco"
+              ],
+              "nota": "Su sottofondo bianco, dipingi la testa a parte con una sola mano."
+            },
+            {
+              "livello": 2,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "pennello a secco",
+              "tag": [
+                "bianco",
+                "luci",
+                "casco"
+              ],
+              "nota": "Passa il bianco a pennello a secco su tutta l'area, mettendo in evidenza le luci."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-magic-blue",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "blu",
+                "lente",
+                "dettaglio"
+              ],
+              "nota": "Dipingi con cura la lente, senza sporcare il bianco attorno."
+            }
+          ]
+        },
+        {
+          "id": "giunture",
+          "nome": "Giunture e parti meccaniche",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-grim-black",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "nero",
+                "giunture",
+                "meccanica",
+                "base"
+              ],
+              "nota": "Su sottofondo bianco, copri tutte le giunture e le parti meccaniche tra le placche d'armatura. Cerca di essere preciso per ridurre i ritocchi; data la posa, qualche sbavatura è inevitabile."
+            }
+          ]
+        },
+        {
+          "id": "armatura",
+          "nome": "Placche d'armatura",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-bright-red",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "rosso",
+                "vivace",
+                "base",
+                "armatura"
+              ],
+              "nota": "Il rosso sul bianco è difficile da riportare a bianco pieno: usa il pennello della misura giusta per ogni zona e non esitare a scendere di misura."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-blood-red",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "rosso",
+                "scuro",
+                "lavaggio",
+                "armatura"
+              ],
+              "nota": "Lava tutte le placche rosse dipinte finora: aumenta la vivacità e dà ombre ricche. Può macchiare zone che non vuoi, quindi cambia pennello per restare preciso.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-murder-scene",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "viola",
+                "rosso",
+                "scuro",
+                "pannelli"
+              ],
+              "nota": "Per i pannelli più scuri. Sembra molto viola, ma sopra una base rossa assume un tono rosso-bruno."
+            }
+          ]
+        },
+        {
+          "id": "metalli",
+          "nome": "Metalli e dettagli dorati",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-gravelord-grey",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "grigio",
+                "metallo",
+                "base"
+              ],
+              "nota": "Su tutte le parti metalliche rimanenti: prepara l'ombreggiatura dei dettagli dorati."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-zealot-yellow",
+              "passate": 1,
+              "tecnica": "velatura",
+              "tag": [
+                "giallo",
+                "oro",
+                "velatura",
+                "dettagli"
+              ],
+              "nota": "Sui dettagli circolari grigi. Essendo trasparente, tinge il grigio e sfrutta l'ombreggiatura dello strato precedente."
+            }
+          ]
+        },
+        {
+          "id": "nastri",
+          "nome": "Nastri",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-pallid-bone",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "beige",
+                "chiaro",
+                "nastri"
+              ],
+              "nota": "Per i nastri che scendono dalla gamba. Per i disegni a mano libera vedi il tutorial The Dawn Blade."
+            }
+          ]
+        },
+        {
+          "id": "luminescenze",
+          "nome": "Effetti luminosi",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "generico-white-ink",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "bianco",
+                "inchiostro",
+                "glow",
+                "base"
+              ],
+              "nota": "Base di ogni bagliore: va bene qualsiasi inchiostro bianco, che scorre tra i dettagli. Lavoralo dentro le prese d'aria dello zaino a reazione e attorno all'arma."
+            },
+            {
+              "livello": 2,
+              "colore": "fan-plasma-coil-glow",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "blu",
+                "glow",
+                "effetti"
+              ],
+              "nota": "Con un pennello da dettaglio, tingi di blu tutte le parti bianche. Se esce un po' dai bordi va bene: rafforza l'alone luminoso."
+            }
+          ]
+        },
+        {
+          "id": "assemblaggio",
+          "nome": "Assemblaggio e decal",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": null,
+              "passate": 1,
+              "tecnica": "assemblaggio",
+              "tag": [
+                "colla",
+                "assemblaggio",
+                "scudo"
+              ],
+              "nota": "Incolla testa, Dawn Blade e scudo. Lo scudo si dipinge con gli stessi passaggi del casco bianco, dei dettagli neri e dell'armatura rossa."
+            },
+            {
+              "livello": 2,
+              "colore": null,
+              "passate": 1,
+              "tecnica": "decal",
+              "tag": [
+                "decal",
+                "simboli",
+                "acqua"
+              ],
+              "nota": "In alternativa a dipingere i simboli Tau, usa le decal: ritaglia quella che ti serve, mettila in poca acqua e dopo uno o due minuti si stacca dal supporto. Posizionala con un pennello pulito o col dorso di un bisturi, poi assorbi l'acqua con carta da cucina. Le decal lasciano lucidità, che si elimina alla fine."
+            }
+          ]
+        },
+        {
+          "id": "usura",
+          "nome": "Usura e danni",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-satchel-brown",
+              "passate": 1,
+              "tecnica": "spugna",
+              "tag": [
+                "marrone",
+                "usura",
+                "spugna",
+                "weathering"
+              ],
+              "nota": "Picchietta con un pezzetto di spugna da imballaggio, sui bordi e sulle zone che subirebbero danni. Aiuta anche a integrare le decal."
+            },
+            {
+              "livello": 2,
+              "colore": "val-chrome-71-064",
+              "passate": 1,
+              "tecnica": "spugna",
+              "tag": [
+                "argento",
+                "cromo",
+                "usura",
+                "weathering"
+              ],
+              "nota": "Con un vecchio pennello a setole corte e rigide, picchietta il cromo su una parte del marrone senza coprirlo del tutto, per un effetto di danni a strati. Non usarlo sulla testa bianca: il cromo vi si perderebbe."
+            }
+          ]
+        },
+        {
+          "id": "finitura",
+          "nome": "Finitura",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "gsw-maxx-matt-varnish",
+              "passate": 1,
+              "tecnica": "vernice",
+              "tag": [
+                "vernice",
+                "opaco",
+                "finitura"
+              ],
+              "nota": "Una mano su tutto il modello, per eliminare la finitura satinata e le lucidità indesiderate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-dawn-blade",
+      "nome": "The Dawn Blade",
+      "gruppo": "Tau & Allies",
+      "immagine": "The_Dawn_Blade.jpg",
+      "pdf": "The Dawn Blade.pdf",
+      "video": "",
+      "correlati": [
+        "commander-farsight"
+      ],
+      "colori": [
+        "sp2-gravelord-grey",
+        "sp2-battleship-grey",
+        "sp2-plasmatic-bolt",
+        "sp2-grim-black",
+        "sp2-zealot-yellow",
+        "sp2-pallid-bone",
+        "sp2-bright-red",
+        "sp2-blood-red",
+        "sp2-medium",
+        "fan-power-node-glow",
+        "fan-matt-white"
+      ],
+      "parti": [
+        {
+          "id": "lama",
+          "nome": "Lama",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-gravelord-grey",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "grigio",
+                "scuro",
+                "metallo",
+                "base"
+              ],
+              "nota": "Su sottofondo bianco: impugnatura, elsa e lama. Sulla lama lavora con pennellate lunghe, nel senso della lunghezza."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-medium",
+              "passate": 1,
+              "tecnica": "velo",
+              "tag": [
+                "medium",
+                "preparazione"
+              ],
+              "nota": "Stendi un velo sottile di Medium sulla parte più larga della lama."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-gravelord-grey",
+              "passate": 1,
+              "tecnica": "bagnato su bagnato",
+              "tag": [
+                "grigio",
+                "scuro",
+                "sfumatura",
+                "contrasto"
+              ],
+              "nota": "Lascia cadere il grigio al centro della linea di Medium prima che asciughi: scorre liberamente senza superare la tensione dell'acqua e si fonde in modo naturale, con forte contrasto tra le due zone della lama."
+            },
+            {
+              "livello": 4,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "filo",
+                "luce"
+              ],
+              "nota": "Lungo il filo affilato della lama. Puoi mescolarlo con un po' di Medium per farlo scorrere meglio e ottenere una finitura più liscia.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "un po' di"
+              }
+            },
+            {
+              "livello": 5,
+              "colore": "sp2-battleship-grey",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "grigio",
+                "chiaro",
+                "sfumatura",
+                "lama"
+              ],
+              "nota": "Sopra la sezione bianca appena dipinta, con linee lunghe e fluide lungo tutta la lama per una copertura uniforme."
+            },
+            {
+              "livello": 6,
+              "colore": "sp2-battleship-grey",
+              "passate": 1,
+              "tecnica": "velatura",
+              "tag": [
+                "grigio",
+                "chiaro",
+                "velatura",
+                "lama"
+              ],
+              "nota": "Uno strato più sottile sulla parte scura della lama, senza lasciare pittura negli incavi: vira leggermente il grigio scuro e lo integra nel tono generale."
+            },
+            {
+              "livello": 7,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "glow",
+                "base"
+              ],
+              "nota": "Nelle zone da cui deve partire il bagliore. Anche qui puoi mescolarlo con un po' di Medium per farlo scorrere meglio.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "un po' di"
+              }
+            },
+            {
+              "livello": 8,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "graffi",
+                "usura",
+                "dettaglio"
+              ],
+              "nota": "Con un pennello da dettaglio, linee sottili a vari angoli lungo la lama: graffi e segni di battaglia."
+            },
+            {
+              "livello": 9,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "bianco",
+                "filo",
+                "luce",
+                "dettaglio"
+              ],
+              "nota": "Una linea sottile di bianco lungo il filo più affilato."
+            }
+          ]
+        },
+        {
+          "id": "bagliore",
+          "nome": "Bagliore energetico",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-plasmatic-bolt",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "turchese",
+                "ciano",
+                "glow",
+                "lama"
+              ],
+              "nota": "Per l'effetto luminoso: prima nell'ampio incavo in alto sulla lama.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-plasmatic-bolt",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "turchese",
+                "ciano",
+                "glow",
+                "sfumatura"
+              ],
+              "nota": "Partendo dall'elsa, dipingi lungo la lama per circa un quarto della lunghezza. Prima che asciughi, sfuma il bordo con un pennello pulito e un po' d'acqua per una transizione più morbida.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            },
+            {
+              "livello": 3,
+              "colore": "fan-power-node-glow",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "rosa",
+                "magenta",
+                "glow",
+                "dettagli"
+              ],
+              "nota": "Con un pennello da dettaglio, poca pittura nei piccoli incavi al centro della lama."
+            }
+          ]
+        },
+        {
+          "id": "elsa",
+          "nome": "Elsa e impugnatura",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-grim-black",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "nero",
+                "elsa",
+                "base"
+              ],
+              "nota": "Dipingi l'elsa con un pennello da dettaglio, per non sbordare sulla lama."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-zealot-yellow",
+              "passate": 1,
+              "tecnica": "velatura",
+              "tag": [
+                "giallo",
+                "oro",
+                "velatura",
+                "elsa"
+              ],
+              "nota": "Tinge la sezione circolare grigia rimasta sull'elsa."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-grim-black",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "nero",
+                "mano",
+                "dettaglio"
+              ],
+              "nota": "Per le parti tra i pannelli d'armatura della mano. Con calma, senza toccare il bianco; se sbordi, ritocca prima del passaggio successivo."
+            },
+            {
+              "livello": 4,
+              "colore": "sp2-bright-red",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "rosso",
+                "vivace",
+                "base",
+                "mano"
+              ],
+              "nota": "Per tutti i pannelli d'armatura della mano. Dipingi una superficie piana alla volta: la finitura sarà più liscia e con meno segni d'asciugatura."
+            },
+            {
+              "livello": 5,
+              "colore": "sp2-blood-red",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "rosso",
+                "scuro",
+                "lavaggio",
+                "mano"
+              ],
+              "nota": "Sopra l'armatura rossa appena dipinta: un rosso più ricco e qualche ombra in più.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nastri",
+          "nome": "Nastri e scritte",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-pallid-bone",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "beige",
+                "chiaro",
+                "nastri",
+                "base"
+              ],
+              "nota": "Per le pergamene che pendono dall'elsa. Osserva come si muove la pittura mentre asciuga: conviene dipingere un lato tenendo la miniatura piana e poi il rovescio. La pagina del PDF elenca anche Zealot Yellow, ma il testo non lo descrive."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-blood-red",
+              "passate": 1,
+              "tecnica": "mano libera",
+              "tag": [
+                "rosso",
+                "scritte",
+                "mano libera",
+                "decal"
+              ],
+              "nota": "Puoi usare le decal ad acqua oppure, se te la senti, un pennello da dettaglio. Appoggia i polsi per tremare meno, scomponi ogni forma in una serie di linee e ruota la miniatura per restare preciso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kroot-farstalker",
+      "nome": "Kroot Farstalker",
+      "gruppo": "Tau & Allies",
+      "immagine": "Kroot_Farstalker.jpg",
+      "pdf": "Kroot Farstalker.pdf",
+      "video": "",
+      "correlati": [],
+      "colori": [
+        "sp2-howling-sand",
+        "sp2-malignant-green",
+        "sp2-ochre-clay",
+        "sp2-noble-skin",
+        "sp2-hardened-leather",
+        "sp2-satchel-brown",
+        "sp2-grim-black",
+        "sp2-blood-red",
+        "sp2-broadsword-silver",
+        "sp2-burnished-red",
+        "fan-matt-white",
+        "fan-strong-tone",
+        "fan-data-system-glow",
+        "fan-radiation-glow",
+        "val-chrome-71-064",
+        "gsw-maxx-matt-varnish"
+      ],
+      "parti": [
+        {
+          "id": "pelle",
+          "nome": "Pelle",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-howling-sand",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "beige",
+                "chiaro",
+                "base",
+                "pelle"
+              ],
+              "nota": "Su sottofondo bianco, dipingi tutta la pelle: è la base e crea le luci dell'insieme."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-malignant-green",
+              "passate": 1,
+              "tecnica": "puntini",
+              "tag": [
+                "verde",
+                "puntini",
+                "macchie",
+                "pelle"
+              ],
+              "nota": "Con un pennello da dettaglio, applica con delicatezza piccoli puntini. Immagina la pelle divisa in davanti e dietro e lavora solo la metà posteriore, con una disposizione casuale."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-ochre-clay",
+              "passate": 1,
+              "tecnica": "puntini",
+              "tag": [
+                "giallo",
+                "ocra",
+                "puntini",
+                "pelle"
+              ],
+              "nota": "Ripeti il procedimento spostando la linea immaginaria leggermente indietro, per avere un gradiente naturale dalla pelle chiara ai punti più scuri. Concentra ombre e punti lungo la spina dorsale e sui lati di gambe e braccia."
+            },
+            {
+              "livello": 4,
+              "colore": "fan-strong-tone",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "marrone",
+                "lavaggio",
+                "fusione",
+                "pelle"
+              ],
+              "nota": "Lava tutta la pelle: fonde i passaggi precedenti mantenendo il contorno sottile dei puntini."
+            },
+            {
+              "livello": 5,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "ritocco",
+              "tag": [
+                "bianco",
+                "ritocco"
+              ],
+              "nota": "A pittura asciutta, ritocca di bianco le sbavature sulle zone ancora da dipingere."
+            }
+          ]
+        },
+        {
+          "id": "aculei",
+          "nome": "Aculei",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-noble-skin",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "chiaro",
+                "aculei"
+              ],
+              "nota": "Dipingi tutti gli aculei, anche quelli singoli su braccia e gambe."
+            }
+          ]
+        },
+        {
+          "id": "stoffa",
+          "nome": "Stoffa e fasce",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-hardened-leather",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "cuoio",
+                "stoffa"
+              ],
+              "nota": "Per la stoffa sotto l'armatura. Se luce e ombra non ti convincono, puoi dare una seconda mano nelle zone più in ombra per aumentare la profondità (opzionale)."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-satchel-brown",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "marrone",
+                "scuro",
+                "fasce"
+              ],
+              "nota": "Per le fasce di gambe e polsi. Fai attenzione ai bordi per non sporcare la pelle e usa la scultura per guidare il pennello."
+            }
+          ]
+        },
+        {
+          "id": "cinghie",
+          "nome": "Cinghie e tasche",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-grim-black",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "nero",
+                "cinghie",
+                "tasche",
+                "cuoio"
+              ],
+              "nota": "Per tutte le cinghie, le cinture e le tasche: l'effetto è quello di un cuoio nero. Per un nero più pieno puoi dare una seconda mano (opzionale)."
+            }
+          ]
+        },
+        {
+          "id": "armatura",
+          "nome": "Armatura",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-blood-red",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "rosso",
+                "armatura",
+                "base"
+              ],
+              "nota": "Per la piastra su petto e schiena. I Kroot sono recuperatori: un colore d'armatura acceso ne richiama la storia e il rosso tiene unita la palette."
+            },
+            {
+              "livello": 2,
+              "colore": "val-chrome-71-064",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "argento",
+                "cromo",
+                "usura",
+                "weathering"
+              ],
+              "nota": "Invecchia le placche con un pennello da dettaglio, concentrandoti su bordi e danni già scolpiti. Usalo con parsimonia: è molto potente."
+            }
+          ]
+        },
+        {
+          "id": "armi",
+          "nome": "Armi e metalli",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-broadsword-silver",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "argento",
+                "metallo",
+                "base",
+                "texture"
+              ],
+              "nota": "Per tutte le parti metalliche rimanenti: ottimo per creare texture artificiale sulle superfici metalliche, risparmiando tempo."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-burnished-red",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "rosso",
+                "marrone",
+                "dettagli",
+                "armi"
+              ],
+              "nota": "Per alcuni dettagli metallici: spezza l'argento e attira l'occhio su certe parti delle armi."
+            },
+            {
+              "livello": 3,
+              "colore": "val-chrome-71-064",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "argento",
+                "cromo",
+                "usura",
+                "armi"
+              ],
+              "nota": "Danni da battaglia sulle parti in Burnished Red, con le stesse tecniche usate per l'armatura e concentrandoti sui bordi."
+            },
+            {
+              "livello": 4,
+              "colore": "fan-strong-tone",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "marrone",
+                "lavaggio",
+                "metallo",
+                "caldo"
+              ],
+              "nota": "Su tutte le armi: riduce la lucentezza dell'argento e aggiunge toni caldi in linea con il resto del modello."
+            }
+          ]
+        },
+        {
+          "id": "gadget",
+          "nome": "Gadget e lenti",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "fan-data-system-glow",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "verde",
+                "glow",
+                "gioielli",
+                "tesori"
+              ],
+              "nota": "Per i ciondoli e le cianfrusaglie che il Kroot ha raccolto come tesori."
+            },
+            {
+              "livello": 2,
+              "colore": "fan-radiation-glow",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "arancione",
+                "glow",
+                "lenti",
+                "occhi"
+              ],
+              "nota": "Per le lenti degli occhiali."
+            }
+          ]
+        },
+        {
+          "id": "finitura",
+          "nome": "Finitura",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "gsw-maxx-matt-varnish",
+              "passate": 1,
+              "tecnica": "vernice",
+              "tag": [
+                "vernice",
+                "opaco",
+                "finitura"
+              ],
+              "nota": "Una sola mano, per togliere la lucentezza satinata di tutti gli Speedpaint."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vespid-stingwing",
+      "nome": "Vespid Stingwing",
+      "gruppo": "Tau & Allies",
+      "immagine": "Vespid_Stingwing.jpg",
+      "pdf": "Vespid Stingwing.pdf",
+      "video": "",
+      "correlati": [],
+      "colori": [
+        "sp2-pastel-salmon",
+        "sp2-fire-giant-orange",
+        "sp2-ancient-honey",
+        "sp2-bright-red",
+        "sp2-peachy-flesh",
+        "sp2-noble-skin",
+        "sp2-bony-matter",
+        "sp2-pallid-bone",
+        "sp2-lizardfolk-cyan",
+        "sp2-blinding-light",
+        "sp2-grim-black",
+        "sp2-shamrock-green",
+        "sp2-medium",
+        "fan-matt-white"
+      ],
+      "parti": [
+        {
+          "id": "carapace",
+          "nome": "Carapace e carne",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-pastel-salmon",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "salmone",
+                "chiaro",
+                "base",
+                "carapace"
+              ],
+              "nota": "Su sottofondo bianco, dipingi tutto il carapace e la carne. Crea un arancio chiarissimo su cui si appoggeranno le ombre."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-fire-giant-orange",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "arancione",
+                "vivace",
+                "base",
+                "carapace"
+              ],
+              "nota": "Su tutto il carapace e la carne, tranne il lato inferiore della coda. Il salmone sotto aiuta l'arancio ad avere un tono più completo che sul solo bianco."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-ancient-honey",
+              "passate": 1,
+              "tecnica": "velatura",
+              "tag": [
+                "giallo",
+                "miele",
+                "velatura",
+                "carapace"
+              ],
+              "nota": "In zone selezionate, a strati sottili come una velatura tradizionale: il giallo è naturalmente trasparente e lascia passare l'ombreggiatura arancione."
+            },
+            {
+              "livello": 4,
+              "colore": "sp2-bright-red",
+              "passate": 1,
+              "tecnica": "lavaggio",
+              "tag": [
+                "rosso",
+                "vivace",
+                "ombra",
+                "carapace"
+              ],
+              "nota": "Sulle placche del carapace: concentra l'effetto all'estremità degli arti, sulle spalle grandi e sulla parte corazzata della coda.",
+              "mix": {
+                "con": "sp2-medium",
+                "rapporto": "1:1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "coda",
+          "nome": "Parte inferiore della coda",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-peachy-flesh",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "rosa",
+                "pelle",
+                "chiaro",
+                "coda"
+              ],
+              "nota": "Per il lato inferiore della coda."
+            }
+          ]
+        },
+        {
+          "id": "artigli",
+          "nome": "Artigli, peli e mandibole",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "fan-matt-white",
+              "passate": 1,
+              "tecnica": "ritocco",
+              "tag": [
+                "bianco",
+                "ritocco"
+              ],
+              "nota": "Prima di continuare, ritocca di bianco ogni sbavatura."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-noble-skin",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "marrone",
+                "chiaro",
+                "artigli",
+                "peli"
+              ],
+              "nota": "Per tutti gli artigli e i peli, tranne quelli delle mandibole. Non sbordare sull'arancio: è un colore potente e macchia facilmente."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-bony-matter",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "grigio",
+                "osso",
+                "mandibole",
+                "artigli"
+              ],
+              "nota": "Per gli artigli delle mandibole."
+            }
+          ]
+        },
+        {
+          "id": "ali",
+          "nome": "Ali",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-pallid-bone",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "beige",
+                "chiaro",
+                "ali",
+                "membrana"
+              ],
+              "nota": "Per la membrana delle ali. Il bianco usato per i ritocchi sulle ali deve coprire le sbavature il più possibile, altrimenti traspare sotto il Pallid Bone chiaro."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-lizardfolk-cyan",
+              "passate": 1,
+              "tecnica": "puntini",
+              "tag": [
+                "ciano",
+                "puntini",
+                "ali",
+                "dettaglio"
+              ],
+              "nota": "Con un pennello da dettaglio, punti sulle estremità della membrana, attorno alle spine più piccole. Fai un motivo semi-casuale per renderlo più naturale."
+            }
+          ]
+        },
+        {
+          "id": "arma",
+          "nome": "Arma e parti non organiche",
+          "passaggi": [
+            {
+              "livello": 1,
+              "colore": "sp2-blinding-light",
+              "passate": 1,
+              "tecnica": "base",
+              "tag": [
+                "bianco",
+                "tecnologia",
+                "armi",
+                "base"
+              ],
+              "nota": "Per armi, propulsori e tutte le parti non organiche: la tecnologia pulita e luminosa crea un forte contrasto con le texture aliene dell'insetto."
+            },
+            {
+              "livello": 2,
+              "colore": "sp2-grim-black",
+              "passate": 1,
+              "tecnica": "dettaglio",
+              "tag": [
+                "nero",
+                "tecnologia",
+                "dettaglio"
+              ],
+              "nota": "Per i dettagli della tecnologia. Il bianco deve restare dominante: lascia che il nero lo completi, non che lo contrasti."
+            },
+            {
+              "livello": 3,
+              "colore": "sp2-shamrock-green",
+              "passate": 1,
+              "tecnica": "glow",
+              "tag": [
+                "verde",
+                "cristallo",
+                "glow"
+              ],
+              "nota": "Per il cristallo dell'arma."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

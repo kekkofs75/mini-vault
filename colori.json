@@ -1,0 +1,577 @@
+{
+  "versione": 1,
+  "colori": [
+    {
+      "id": "sp2-malignant-green",
+      "nome": "Malignant Green",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#bfd62f",
+      "posseduto": true,
+      "immagini": {
+        "colore": "Malignant_Green.webp",
+        "boccetta": "Malignant_Green_Bottle.webp",
+        "sample": "Malignant_Green_Sample.webp"
+      }
+    },
+    {
+      "id": "sp2-ochre-clay",
+      "nome": "Ochre Clay",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#b8a83a",
+      "posseduto": true,
+      "immagini": {
+        "colore": "Ochre_Clay.webp",
+        "boccetta": "Ochre_Clay_Bottle.webp",
+        "sample": "Ochre_Clay_Sample.webp"
+      }
+    },
+    {
+      "id": "sp2-ghillie-dew",
+      "nome": "Ghillie Dew",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#84bf2e",
+      "posseduto": true,
+      "immagini": {
+        "colore": "Ghillie_Dew.webp",
+        "boccetta": "Ghillie_Dew_Bottle.webp",
+        "sample": "Ghillie_Dew_Sample.webp"
+      }
+    },
+    {
+      "id": "sp2-camo-cloak",
+      "nome": "Camo Cloak",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#5e8f3e",
+      "posseduto": true,
+      "immagini": {
+        "colore": "Camo_Cloak.webp",
+        "boccetta": "Camo_Cloak_Bottle.webp",
+        "sample": "Camo_Cloak_Sample.webp"
+      }
+    },
+    {
+      "id": "sp2-brownish-decay",
+      "nome": "Brownish Decay",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#8a7a3a",
+      "posseduto": true,
+      "immagini": {
+        "colore": "Brownish_Decay.webp",
+        "boccetta": "Brownish_Decay_Bottle.webp",
+        "sample": "Brownish_Decay_Sample.webp"
+      }
+    },
+    {
+      "id": "sp2-pallid-bone",
+      "nome": "Pallid Bone",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e6d9a8",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-hardened-leather",
+      "nome": "Hardened Leather",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#9a6a2e",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-burnished-red",
+      "nome": "Burnished Red",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#a8442a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-plasmatic-bolt",
+      "nome": "Plasmatic Bolt",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#5fd1c4",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-dark-wood",
+      "nome": "Dark Wood",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#5a3a22",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-grim-black",
+      "nome": "Grim Black",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#1e1e22",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-ancient-honey",
+      "nome": "Ancient Honey",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e3a41d",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-thunderbird-blue",
+      "nome": "Thunderbird Blue",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#1fa5b5",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-hoard-bronze",
+      "nome": "Hoard Bronze",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#a87b3c",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-noble-skin",
+      "nome": "Noble Skin",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#b5703f",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-princess-pink",
+      "nome": "Princess Pink",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e58ab8",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-tidal-wave",
+      "nome": "Tidal Wave",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#7ec8e3",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-satchel-brown",
+      "nome": "Satchel Brown",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#6b3f26",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-blinding-light",
+      "nome": "Blinding Light",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e8e8ec",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-magic-blue",
+      "nome": "Magic Blue",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#2e6fd8",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-bright-red",
+      "nome": "Bright Red",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e0452a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-blood-red",
+      "nome": "Blood Red",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#a8161e",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-murder-scene",
+      "nome": "Murder Scene",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#5a2a4a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-gravelord-grey",
+      "nome": "Gravelord Grey",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#6b6e74",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-zealot-yellow",
+      "nome": "Zealot Yellow",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#f2c21a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-howling-sand",
+      "nome": "Howling Sand",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#d8c79a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-broadsword-silver",
+      "nome": "Broadsword Silver",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#9aa0a6",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-battleship-grey",
+      "nome": "Battleship Grey",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#8d939a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-pastel-salmon",
+      "nome": "Pastel Salmon",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#f2b79a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-fire-giant-orange",
+      "nome": "Fire Giant Orange",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e8641b",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-peachy-flesh",
+      "nome": "Peachy Flesh",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#f0b48c",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-bony-matter",
+      "nome": "Bony Matter",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#c9bfa0",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-lizardfolk-cyan",
+      "nome": "Lizardfolk Cyan",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#1e9ca8",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-shamrock-green",
+      "nome": "Shamrock Green",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#2ead4a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "sp2-medium",
+      "nome": "Speedpaint Medium",
+      "marca": "Army Painter",
+      "linea": "Speedpaint 2.0",
+      "hex": "#e8e4d8",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "fan-matt-white",
+      "nome": "Matt White",
+      "marca": "Army Painter",
+      "linea": "Fanatic",
+      "hex": "#f5f5f0",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "fan-strong-tone",
+      "nome": "Strong Tone",
+      "marca": "Army Painter",
+      "linea": "Fanatic",
+      "hex": "#6e4a28",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "fan-data-system-glow",
+      "nome": "Data System Glow",
+      "marca": "Army Painter",
+      "linea": "Fanatic Effects",
+      "hex": "#4ccb5a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "fan-radiation-glow",
+      "nome": "Radiation Glow",
+      "marca": "Army Painter",
+      "linea": "Fanatic Effects",
+      "hex": "#ff8a2a",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "fan-power-node-glow",
+      "nome": "Power Node Glow",
+      "marca": "Army Painter",
+      "linea": "Fanatic Effects",
+      "hex": "#d13fa0",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "fan-plasma-coil-glow",
+      "nome": "Plasma Coil Glow",
+      "marca": "Army Painter",
+      "linea": "Fanatic Effects",
+      "hex": "#3fa0ff",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "generico-white-ink",
+      "nome": "White Ink",
+      "marca": "Generica",
+      "linea": "Inchiostri",
+      "hex": "#ffffff",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "val-chrome-71-064",
+      "nome": "Chrome 71.064",
+      "marca": "Vallejo",
+      "linea": "Metal Color",
+      "hex": "#c8cbd0",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    },
+    {
+      "id": "gsw-maxx-matt-varnish",
+      "nome": "Maxx Matt Varnish",
+      "marca": "GSW",
+      "linea": "Vernici",
+      "hex": "#d8d4cc",
+      "posseduto": null,
+      "immagini": {
+        "colore": null,
+        "boccetta": null,
+        "sample": null
+      }
+    }
+  ]
+}
